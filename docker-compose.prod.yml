@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: docker-app-prod
+    image: docker-app-prod
+    build:
+      target: production
